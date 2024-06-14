@@ -20,6 +20,7 @@ const functionParams: FunctionParams = { ... }
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#jsii-docgen-mre.FunctionParams.property.paramOne">paramOne</a></code> | <code>string \| <a href="#jsii-docgen-mre.IOne">IOne</a>[]</code> | *No description.* |
+| <code><a href="#jsii-docgen-mre.FunctionParams.property.paramTwo">paramTwo</a></code> | <code><a href="#jsii-docgen-mre.IOne">IOne</a>[] \| string[]</code> | *No description.* |
 
 ---
 
@@ -30,6 +31,16 @@ public readonly paramOne: string | IOne[];
 ```
 
 - *Type:* string | <a href="#jsii-docgen-mre.IOne">IOne</a>[]
+
+---
+
+##### `paramTwo`<sup>Required</sup> <a name="paramTwo" id="jsii-docgen-mre.FunctionParams.property.paramTwo"></a>
+
+```typescript
+public readonly paramTwo: IOne[] | string[];
+```
+
+- *Type:* <a href="#jsii-docgen-mre.IOne">IOne</a>[] | string[]
 
 ---
 
@@ -57,6 +68,31 @@ new ConstructFoo(fnParams: FunctionParams)
 
 ---
 
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#jsii-docgen-mre.ConstructFoo.add">add</a></code> | *No description.* |
+
+---
+
+##### `add` <a name="add" id="jsii-docgen-mre.ConstructFoo.add"></a>
+
+```typescript
+public add(num_one: number, num_two: number): number
+```
+
+###### `num_one`<sup>Required</sup> <a name="num_one" id="jsii-docgen-mre.ConstructFoo.add.parameter.num_one"></a>
+
+- *Type:* number
+
+---
+
+###### `num_two`<sup>Required</sup> <a name="num_two" id="jsii-docgen-mre.ConstructFoo.add.parameter.num_two"></a>
+
+- *Type:* number
+
+---
 
 
 #### Properties <a name="Properties" id="Properties"></a>

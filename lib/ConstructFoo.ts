@@ -19,6 +19,7 @@ export type ParamType = string | IOne
  */
 export interface FunctionParams {
     readonly paramOne: ParamType[]
+    readonly paramTwo: IOne [] | string []
 }
 
 export class ConstructFoo {
