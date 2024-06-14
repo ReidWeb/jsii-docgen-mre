@@ -1,0 +1,2 @@
+// Construct
+export * from "./ConstructFoo";

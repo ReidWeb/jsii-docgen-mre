@@ -1,0 +1,40 @@
+{
+  "name": "jsii-docgen-mre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "jsii",
+    "generate-docs": "jsii-docgen",
+    "build:generate-docs": "jsii && jsii-docgen",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "John Doe",
+    "email": "john.doe@acme.com"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jsii": "^5.4.21",
+    "jsii-docgen": "^10.4.15",
+    "jsii-pacmak": "^1.100.0",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "url": "https://github.com/acme/project-name.git"
+  },
+  "jsii": {
+    "versionFormat": "full",
+    "targets": {
+      "python": {
+        "distName": "jsii-docgen-mre",
+        "module": "jsii-docgen-mre"
+      }
+    },
+    "tsc": {
+      "outDir": "dist"
+    }
+  },
+  "stability": "stable"
+}
