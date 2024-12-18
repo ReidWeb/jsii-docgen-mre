@@ -16,7 +16,7 @@
   },
   "license": "UNLICENSED",
   "devDependencies": {
-    "jsii": "^5.4.21",
+    "jsii": "^5.4.46",
     "jsii-docgen": "^10.4.15",
     "jsii-pacmak": "^1.100.0",
     "typescript": "^5.4.5"
